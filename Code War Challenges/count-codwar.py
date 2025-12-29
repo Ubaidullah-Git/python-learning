@@ -12,6 +12,6 @@ def count_sheeps(sheep):
     return count
 
 
-sheep_array = [True, True, False, True, False, True]
+sheep_array = [True, True, True, False, False, True, False, True]
 print(count_sheeps(sheep_array))
 
