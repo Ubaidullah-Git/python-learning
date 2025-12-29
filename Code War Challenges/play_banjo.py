@@ -3,7 +3,7 @@ def are_you_playing_banjo(name):
         return name + " plays banjo"
     return name + " does not play banjo"
 
-names = ["Rick", "rachel", "Adam", "Banjo", "R", "Robert Smith"]
+names = ["Rick", "rachel", "Adam", "Banjo", "John", "Robert Smith"]
 
 for name in names:
     print(are_you_playing_banjo(name))
