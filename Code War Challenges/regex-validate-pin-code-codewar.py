@@ -7,6 +7,7 @@ def validate_pin(pin):
     else:
         return False
 
+
 print(validate_pin("123"))
 print(validate_pin("5436"))
 print(validate_pin("12378"))
