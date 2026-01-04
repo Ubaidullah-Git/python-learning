@@ -6,4 +6,3 @@ print(bool_to_word(True))
 print(bool_to_word(False))
 
 print(bool_to_word(None))
-
