@@ -1,11 +1,6 @@
 def solution(string):
-    reverse = ''
-    range = len(string)
+    return string[::-1]
 
-    while(range > 0):
-        reverse = reverse + string[range - 1]
-        range = range - 1
-    return reverse
 
 result = solution('hello world')
 print(result)
