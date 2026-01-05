@@ -1,8 +1,6 @@
 def descending_order(num):
     if len(list(str(num))) > 1:
-        lst = list(str(num))
-        lst.sort(reverse=True)
-        return int("".join(lst))
+        return int("".join(sorted(str(num),reverse=True)))
     else:
         return num
 
