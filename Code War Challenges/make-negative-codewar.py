@@ -1,5 +1,5 @@
 def make_negative(n):
-    return -n if n > 0 else n
+    return -abs(n)
 
 print(make_negative(23))
 print(make_negative(0))
