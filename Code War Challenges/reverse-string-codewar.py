@@ -7,5 +7,5 @@ def solution(string):
         range = range - 1
     return reverse
 
-result = solution('world')
+result = solution('hello world')
 print(result)
