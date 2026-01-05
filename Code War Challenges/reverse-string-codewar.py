@@ -1,5 +1,5 @@
 def solution(string):
-    return string[::-1]
+    return ' '.join(word[::-1] for word in string.split(' '))
 
 
 result = solution('hello world')
