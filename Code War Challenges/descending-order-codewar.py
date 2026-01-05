@@ -2,9 +2,7 @@ def descending_order(num):
     if len(list(str(num))) > 1:
         lst = list(str(num))
         lst.sort(reverse=True)
-        n = "".join(lst)
-        result = int(n)
-        return result
+        return int("".join(lst))
     else:
         return num
 
