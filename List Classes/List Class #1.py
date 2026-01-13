@@ -36,4 +36,3 @@ names_A = [a for a in names if a[0] == 'A']
 print(names)
 print(names_A)
 
-
