@@ -28,4 +28,12 @@ print(ls.index(21))
 print(lst.index(36))
 print(ls.index(5))
 
+# use of count()
+
+print(ls.count(77))
+print(ls.count(21))
+print(lst.count(36))
+print(ls.count(5))
+
+
 
