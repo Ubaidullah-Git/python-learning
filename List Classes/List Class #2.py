@@ -44,3 +44,9 @@ print(l1)
 
 l.insert(3, 48)
 print(l)
+
+# use of extend()
+
+m = [24,32,324]
+l.extend(m)
+print(l)
