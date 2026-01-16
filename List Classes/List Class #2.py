@@ -40,4 +40,7 @@ print(ls.count(5))
 l1 = l.copy()
 print(l1)
 
+# use of insert()
 
+l.insert(3, 48)
+print(l)
