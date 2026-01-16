@@ -21,5 +21,11 @@ print(ls)
 ls.reverse()
 print(ls)
 
+# use of index()
+
+print(ls.index(77))
+print(ls.index(21))
+print(lst.index(36))
+print(ls.index(5))
 
 
