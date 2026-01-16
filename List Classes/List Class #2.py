@@ -40,3 +40,4 @@ print(ls.count(5))
 l1 = l.copy()
 print(l1)
 
+
