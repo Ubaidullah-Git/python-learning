@@ -35,5 +35,8 @@ print(ls.count(21))
 print(lst.count(36))
 print(ls.count(5))
 
+# use of copy()
 
+l1 = l.copy()
+print(l1)
 
