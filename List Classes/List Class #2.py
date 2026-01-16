@@ -50,3 +50,8 @@ print(l)
 m = [24,32,324]
 l.extend(m)
 print(l)
+
+# use of concating method
+
+print(ls + m)
+
